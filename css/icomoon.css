@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8nkttk');
+  src:  url('../fonts/icomoon.eot?8nkttk#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-btn-ico:before {
+  content: "\e900";
+}
+.icon-best-logo-ico:before {
+  content: "\e901";
+  color: #efca38;
+}
+.icon-call-ico-white:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-clock-ico:before {
+  content: "\e903";
+  color: #f0cb38;
+}
+.icon-document-ico:before {
+  content: "\e904";
+  color: #f0cb38;
+}
+.icon-family-ico:before {
+  content: "\e905";
+}
+.icon-gift-ico:before {
+  content: "\e906";
+}
+.icon-house-key:before {
+  content: "\e907";
+}
+.icon-manager-ico:before {
+  content: "\e908";
+  color: #f0cb38;
+}
+.icon-monitor-ico:before {
+  content: "\e909";
+  color: #f0cb38;
+}
+.icon-mortgage-ico:before {
+  content: "\e90a";
+  color: #f0cb38;
+}
+.icon-sketch-ico:before {
+  content: "\e90b";
+  color: #f0cb38;
+}
+.icon-sketch-ico-2:before {
+  content: "\e90c";
+  color: #f0cb38;
+}
+.icon-tank-ico:before {
+  content: "\e90e";
+}
+.icon-wallet-ico:before {
+  content: "\e90f";
+  color: #f0cb38;
+}
+.icon-wallpaper-ico:before {
+  content: "\e910";
+  color: #f0cb38;
+}
+.icon-zoom-ico:before {
+  content: "\e911";
+  color: #fff;
+}

@@ -1,0 +1,335 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?8nkttk');
+  src:  url('../fonts/icomoon.eot?8nkttk#iefix') format('embedded-opentype'),
+    /*url('../fonts/icomoon.ttf?8nkttk') format('truetype'),*/
+    url('../fonts/icomoon.woff?8nkttk') format('woff'),
+    url('../fonts/icomoon.svg?8nkttk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@charset "UTF-8";
+.hidden {
+  margin: 10px;
+  display: inline-block;
+}
+.hidden .popup {
+  padding: 20px 30px;
+  border: 10px solid #f0cb38;
+  text-align: center;
+}
+.hidden .popup h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.hidden .popup p {
+  font-size: 16px;
+  margin: 0;
+}
+
+form.formm {
+  margin-top: 50px;
+  text-align: left;
+  font-family: sans-serif;
+}
+form.formm label {
+  color: #fff;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: 1.68px;
+}
+
+.form-input .input-block {
+  display: inline-block;
+  position: relative;
+}
+.form-input .input-block span {
+  position: absolute;
+  left: 30px;
+  top: 23px;
+}
+.form-input .input-block input {
+  box-sizing: border-box;
+  width: 340px;
+  height: 61px;
+  border-radius: 31px;
+  border: 2px solid #f0f0f0;
+  background-color: transparent;
+  color: #232525;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: 2.52px;
+  padding-left: 70px;
+  transition: all 0.2s;
+}
+.form-input .input-block input:focus {
+  outline: 0;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #f0cb38;
+  transition: all 0.2s;
+}
+
+.form-input .input-block .done-block {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 293px;
+  border-radius: 31px;
+  text-align: center;
+  height: 100%;
+  color: #fff;
+  background: #4dcd74;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 57px;
+  letter-spacing: 0.6px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+}
+
+.form-input .button-block {
+  display: inline-block;
+  position: relative;
+  padding-right: 60px;
+}
+.form-input .button-block button {
+  box-sizing: border-box;
+  width: 257px;
+  margin-left: 40px;
+  position: relative;
+  top: 0px;
+  cursor: pointer;
+}
+.form-input .button-block button:focus {
+  outline: 0;
+}
+.form-input .button-block .btn-prim {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  height: 61px;
+  border-radius: 31px;
+  border: 2px solid #ab8b0c;
+  background-color: #f0cb38;
+  text-align: center;
+  top: 0px;
+  left: -2px;
+  transition: all 0.2s;
+}
+.form-input .button-block .btn-prim .icon-arrow-btn-ico {
+  font-family: "icomoon" !important;
+  display: inline-block;
+  font-weight: inherit;
+  font-size: inherit;
+  position: relative;
+  top: 4px;
+  left: 0;
+}
+.form-input .button-block .btn-prim .icon-arrow-btn-ico:before {
+  content: "";
+}
+.form-input .button-block .btn-prim p {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1e1e1e;
+  line-height: 0;
+  top: 2px;
+  left: 10px;
+}
+.form-input .button-block .check-block {
+  position: absolute;
+  bottom: -40px;
+  left: 35px;
+}
+.form-input .button-block .check-block input[type=checkbox] {
+  display: none;
+}
+.form-input .button-block .check-block label {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.48px;
+  text-transform: none;
+  position: relative;
+  margin-left: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+.form-input .button-block .check-block label:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+}
+.form-input .button-block .check-block input[type=checkbox]:checked + label:after {
+  content: "√";
+  position: absolute;
+  opacity: 0.7;
+  color: #fff;
+  font-size: 24px;
+  top: -2px;
+  left: -26px;
+}
+.form-input .button-block .check-block input[type=checkbox] + label:after {
+  content: "";
+  position: absolute;
+}
+.form-input .button-block .check-block a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #f0cb38;
+}
+
+.hidden {
+  background-color: #333;
+  color: #fff;
+}
+
+form {
+  margin-top: 22px;
+  padding-bottom: 52px;
+  position: relative;
+  z-index: 6;
+}
+form label {
+  font-size: 14px;
+  line-height: 56px;
+}
+
+.error {
+  border: 2px solid #dd3636 !important;
+}
+.error:hover {
+  border: 2px solid #dd3636 !important;
+}
+
+.done {
+  border: 2px solid #dd0000 !important;
+}
+
+.vis {
+  transition: all 0.2s;
+  opacity: 1;
+  visibility: visible;
+}
+
+// 
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-btn-ico:before {
+  content: "\e900";
+  font-family: 'icomoon';
+}
+.icon-best-logo-ico:before {
+  content: "\e901";
+  color: #efca38;
+  font-family: 'icomoon';
+}
+.icon-call-ico-white:before {
+  content: "\e902";
+  color: #fff;
+  font-family: 'icomoon';
+}
+.icon-clock-ico:before {
+  content: "\e903";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-document-ico:before {
+  content: "\e904";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-family-ico:before {
+  content: "\e905";
+  font-family: 'icomoon';
+}
+.icon-gift-ico:before {
+  content: "\e906";
+  font-family: 'icomoon';
+}
+.icon-house-key:before {
+  content: "\e907";
+  font-family: 'icomoon';
+}
+.icon-manager-ico:before {
+  content: "\e908";
+  color: #f0cb38;
+}
+.icon-monitor-ico:before {
+  content: "\e909";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-mortgage-ico:before {
+  content: "\e90a";
+  color: #f0cb38;
+}
+.icon-sketch-ico:before {
+  content: "\e90b";
+  color: #f0cb38;
+}
+.icon-sketch-ico-2:before {
+  content: "\e90c";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-tank-ico:before {
+  content: "\e90e";
+  font-family: 'icomoon';
+}
+.icon-wallet-ico:before {
+  content: "\e90f";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-wallpaper-ico:before {
+  content: "\e910";
+  color: #f0cb38;
+  font-family: 'icomoon';
+}
+.icon-zoom-ico:before {
+  content: "\e911";
+  color: #fff;
+  font-family: 'icomoon';
+}
