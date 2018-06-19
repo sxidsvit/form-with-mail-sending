@@ -1,7 +1,6 @@
 <?php
 
-// $ch = curl_init("http://bestkuzminki.ru/mail.php");
-$ch = curl_init("https://best.lekua.in.ua/mail.php");
+$ch = curl_init("http://bestkuzminki.ru/mail.php");
 $fp = fopen("curl-mail.php", "w");
 
 curl_setopt($ch, CURLOPT_FILE, $fp);
